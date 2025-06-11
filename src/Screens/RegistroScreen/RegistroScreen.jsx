@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './registroScreen.css'
+import './RegistroScreen.css'
 
 const RegistroScreen = ({ onRegister }) => {
   const [email, setEmail] = useState('')
