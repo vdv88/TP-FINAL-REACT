@@ -1,0 +1,14 @@
+.product-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  /* Diferencia al admin  */
+  .product-list-container.admin {
+    background-color: #e4e4e4; 
+    border: 2px dashed rgb(88, 88, 88);
+  }
+  

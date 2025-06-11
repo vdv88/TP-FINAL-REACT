@@ -1,0 +1,93 @@
+/* Navbar principal */
+.navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0f002e;
+  padding: 0.75rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Encode Sans', sans-serif;
+  color: #ffffff;
+}
+
+/* Título a la izquierda */
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Contenedor de items */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: nowrap;        /* evita que los items se envuelvan */
+}
+
+/* Enlaces */
+.navbar-nav .link {
+  white-space: nowrap;      /* evita salto de línea en “Crear Obra” */
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.navbar-nav .link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.navbar-nav .link-seleccionado {
+  background-color: #ff7b00;
+  color: #ffffff;
+}
+
+/* Botón “Cerrar sesión” */
+.navbar-nav .btn-cerrar {
+  white-space: nowrap;      /* evita salto de línea */
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  appearance: none;
+}
+.navbar-nav .btn-cerrar:hover {
+  background-color: #0056b3;
+}
+
+/* Texto de bienvenida */
+.navbar-greeting {
+  margin-left: 1.5rem;
+  font-size: 0.9rem;
+  color: #cccccc;
+  white-space: nowrap;
+}
+
+/* Responsive: adapta en pantallas pequeñas */
+@media (max-width: 768px) {
+  .navbar-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .navbar-nav {
+    flex-wrap: wrap;       /* si es muy angosto, permite wrap */
+    gap: 0.5rem;
+  }
+  .navbar-greeting {
+    display: none;         /* oculta saludo en móvil */
+  }
+}

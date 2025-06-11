@@ -1,0 +1,30 @@
+.product-detail-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Encode Sans', sans-serif;
+}
+
+.product-detail-container h1 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.product-detail-container p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.product-detail-container p strong {
+  color: #222;
+}
+
+.product-detail-container hr {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}

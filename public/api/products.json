@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "nombre": "Red Eléctrica, conexiones domiciliarias y alumbrado público",
+      "localidad": "Ushuaia, Tierra del Fuego",
+      "estado": "En ejecución",
+      "img": "/FotosObras/Obra1.jpg",
+      "monto_convenio": "164.983.215,57",
+      "fecha_inicio": "2024-03-05",
+      "descripcion":"Red Eléctrica, conexiones domiciliarias y alumbrado público",
+      "esquema_desembolsos":"20% - hasta 90% - 10%",
+      "entidad":"Provincia de Tierra del Fuego Antártida e Islas del Atlántico Sur"
+
+    },
+    {
+      "id": 2,
+      "nombre": "Salón de Usos Múltiples Barrio Las Flores",
+      "localidad": "La Plata, Buenos Aires",
+      "estado": "En ejecución",
+      "img": "/FotosObras/Obra2.jpg",
+      "monto_convenio": "24.449.726,19",
+      "fecha_inicio": "2024-05-10",
+      "descripcion":"Salon de usos multiples de 46m2 sobre plata de hormigon armado y mamposteria portante tipo 'Retak'",
+      "esquema_desembolsos":"1º40 - 2º 60% (50%RC y 30%AF)",
+      "entidad":"Obispado de Lomas de Zamora"
+    },
+    {
+      "id": 3,
+      "nombre": "Plaza Barrio Santa Catalina",
+      "localidad": "Paraná, Entre Ríos",
+      "estado": "Finalizada",
+      "img": "/FotosObras/Obra3.jpg",
+      "monto_convenio":  "21.829.504,29",
+      "fecha_inicio": "2023-08-15",
+      "descripcion":"Se plantea la remodelación integral de la Plaza con un nuevo diseño comprendido por: Construcción de 675 m2 veredas de hormigón peinado y rampas en esquinas, 10 m2 de construcción de veredas de hormigón alisado, colocación de nuevo equipamiento: bancos tipo Morón, Bancos tipo BKF, Mesas, Pérgolas metálicas, cestos de basura; Colocación de cartelería indicativa, Nueva Luminarias; Forestación y parquización con sistema de riego; construcción de un Playón deportivo de 364 m2, Colocación de juegos nuevos (de vanguardia e  integradores) sobre 253 m2 de  solado amortiguante. El objetivo es conseguir una mejora en los 3997 m2 del parque en el cual se encuentran los distintos espacios nombrados anteriormente, de manera de poner en valor este espacio público y su entorno.'",
+      "esquema_desembolsos":"20% - hasta 90% - 10%",
+      "entidad":"Municipalidad de Avellaneda"
+    },
+    {
+      "id": 4,
+      "nombre": "Centro comunitario Barrio Presidente Perón",
+      "localidad": "Puerto Madryn, Chubut",
+      "estado": "Finalizada",
+      "img": "/FotosObras/Obra4.jpg",
+      "monto_convenio": "49.479.120,21",
+      "fecha_inicio": "2023-11-01",
+      "descripcion":"-Construcción de equipamiento comunitario: SUM; -Superficies cubierta Existente a terminar : 91.44 m2;-Comedor +aula taller a terminar: 150m2; -Biblioteca+Administración a terminar: 55m2;-Cocina a terminar: 29 m2; -Sanitarios a terminar: 26 m2; -Depósito a terminar: 15m2:-Superficie Semi Cubierta a Construir 128 m2",
+      "esquema_desembolsos":"20% - hasta 90% - 10%",
+      "entidad":"Municipalidad de Puerto Madryn"
+
+    }
+  ]
+  
